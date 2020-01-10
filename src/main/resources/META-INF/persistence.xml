@@ -5,6 +5,9 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>entities.User</class>
     <class>entities.Role</class>
+    <class>entities.Person</class>
+    <class>entities.Hobby</class>
+    <class>entities.Address</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3307/prep1?zeroDateTimeBehavior=convertToNull"/>
